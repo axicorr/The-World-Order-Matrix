@@ -1069,8 +1069,8 @@ a {
   color: #ffffff;
 }
 .cid-v0FqPKQq1c {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
 }
 .cid-v0FqPKQq1c .line {
@@ -1084,18 +1084,18 @@ a {
 }
 .cid-v0FABtkZn7 {
   padding-top: 0rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
-.cid-v0Fqw1ry4M {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #fafafa;
+.cid-v0Ke1itQme {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #bed3f9;
 }
-.cid-v0Fqw1ry4M .mbr-fallback-image.disabled {
+.cid-v0Ke1itQme .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v0Fqw1ry4M .mbr-fallback-image {
+.cid-v0Ke1itQme .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1104,34 +1104,30 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-v0Fqw1ry4M .row {
-  align-items: center;
-}
 @media (max-width: 991px) {
-  .cid-v0Fqw1ry4M .row {
-    flex-direction: column-reverse;
+  .cid-v0Ke1itQme .image-wrapper {
+    margin-bottom: 1rem;
   }
-  .cid-v0Fqw1ry4M .image-wrapper {
-    margin-bottom: 2rem;
-  }
-  .cid-v0Fqw1ry4M .card-wrapper {
-    padding: 0 1rem;
-  }
+}
+.cid-v0Ke1itQme .row {
+  flex-direction: row-reverse;
+}
+.cid-v0Ke1itQme img {
+  width: 100%;
 }
 @media (min-width: 992px) {
-  .cid-v0Fqw1ry4M .card-wrapper {
-    padding-right: 2rem;
+  .cid-v0Ke1itQme .text-wrapper {
+    padding: 2rem;
   }
 }
-.cid-v0Fqw1ry4M .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
+.cid-v0Ke1itQme .mbr-section-title {
+  color: #364e6f;
 }
-.cid-v0Fqw1ry4M .card-title {
+.cid-v0Ke1itQme .mbr-description {
   color: #364e6f;
 }
 .cid-v0FqzrSofw {
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
@@ -1144,8 +1140,14 @@ a {
 .cid-v0FqzrSofw .mbr-text {
   color: #4d6d9a;
 }
-.cid-v0JEMumWWB .navbar-dropdown {
-  position: relative !important;
+.cid-v0JEMumWWB {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-v0JEMumWWB nav.navbar {
+  position: fixed;
 }
 .cid-v0JEMumWWB .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1469,6 +1471,7 @@ a {
 }
 .cid-v0JEMumWWB .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-v0JEMumWWB a.nav-link {
   display: flex;
@@ -1530,8 +1533,86 @@ a {
   background-color: #232323;
   color: #ffffff;
 }
-.cid-v0JEMumWWB .navbar-dropdown {
-  position: relative !important;
+.cid-v0KbFpIvcS {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-v0KbFpIvcS .line {
+  background-color: #6592e6;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-v0KbFpIvcS .mbr-text {
+  color: #364e6f;
+}
+.cid-v0KbN53tWT {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-v0KbYosmUy {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #bed3f9;
+}
+.cid-v0KbYosmUy .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v0KbYosmUy .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-v0KbYosmUy .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-v0KbYosmUy .row {
+  flex-direction: row-reverse;
+}
+.cid-v0KbYosmUy img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-v0KbYosmUy .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-v0KbYosmUy .mbr-section-title {
+  color: #364e6f;
+}
+.cid-v0KbYosmUy .mbr-description {
+  color: #364e6f;
+}
+.cid-v0Kc493FSS {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-v0Kc493FSS .line {
+  background-color: #6592e6;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-v0Kc493FSS .mbr-text {
+  color: #364e6f;
+}
+.cid-v0JEMumWWB {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-v0JEMumWWB nav.navbar {
+  position: fixed;
 }
 .cid-v0JEMumWWB .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1855,6 +1936,7 @@ a {
 }
 .cid-v0JEMumWWB .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-v0JEMumWWB a.nav-link {
   display: flex;
