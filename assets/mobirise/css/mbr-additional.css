@@ -682,8 +682,14 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-v0JEMumWWB .navbar-dropdown {
-  position: relative !important;
+.cid-v0JEMumWWB {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-v0JEMumWWB nav.navbar {
+  position: fixed;
 }
 .cid-v0JEMumWWB .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1007,6 +1013,7 @@ a {
 }
 .cid-v0JEMumWWB .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-v0JEMumWWB a.nav-link {
   display: flex;
